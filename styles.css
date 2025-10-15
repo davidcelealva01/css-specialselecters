@@ -5,3 +5,21 @@ li:hover{
 li:active{
     background-color: black;
 }
+
+li::before {
+    content: "😈"
+}
+
+li:hover::after {
+    content: " Vote For Me!!";
+    color: maroon;
+}
+
+li:active::before {
+    content: "💀"
+}
+
+ul{
+    list-style: none;
+}
+
