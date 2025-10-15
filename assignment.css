@@ -13,3 +13,11 @@
 
 /* Add your CSS styles below this line */
 
+.card::before {
+    content: "Sale";
+    font-size:30px;
+    background-color: red;
+    color:white;
+    border-radius:15px ;
+}
+
